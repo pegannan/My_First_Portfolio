@@ -1,6 +1,8 @@
-body {display: flex;flex-direction: column;overflow-y: auto; }
+header{background-color: lightcoral;border-bottom: 7px;border-bottom-color: gray;height: fit-content;margin-bottom: 30px;}
 
+body {display: flex;flex-direction: column;overflow-y: auto;background-color: beige; }
 main{display: flex; flex-direction: row; flex: auto; overflow-y: auto;}
-
+h1{color:lightcoral;}
 article{flex: 2;}
-aside{flex: 1;}
+aside{flex: 1;background-color: beige;border-radius: 50px;overflow-y: auto;background-blend-mode: darken;}
+footer{text-align: center;}
